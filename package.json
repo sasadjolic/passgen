@@ -5,7 +5,7 @@
 	"author": "Sasa Djolic <sasa.djolic@sdaworld.com>",
 	"keywords": ["password", "generator", "pass", "random"],
 	"bugs": {
-		"web": "http://github.com/SDA/passgen/issues" 
+		"url": "http://github.com/SDA/passgen/issues" 
 	},
 	"licenses": [
 		{
