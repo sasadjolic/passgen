@@ -13,17 +13,17 @@ Password generator
 By default, you'll get 64 alphanumeric characters in mixed case:
 
 	var password = passgen.create();
-	// 
+	// l6HonY3FSD4O3HYWU6d05DDD2uCY5aaSZIxFNwj7KOw9dic6Pr31S2TkqV8rdeSl
 
 Choose a different password length:
 
 	var password = passgen.create(12);
-	//
+	// 6KLOjSlx6Nfk
 
 Choose a different alphabet from which to pick characters for the password:
 
 	var password = passgen.create(12, 'abc');
-	//
+	// caccabccbacb
 
 ## Running tests
 

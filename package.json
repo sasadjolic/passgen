@@ -23,6 +23,8 @@
 	"directories": {
 		"lib": "./lib"
 	},
-	"dependencies": {},
+	"dependencies": {
+		"vows": ">= 0.5.13"
+	},
 	"engines": ["node >= 0.4"]
 }
