@@ -13,12 +13,10 @@
 			"url": "http://opensource.org/licenses/mit-license.php"
 		}
 	],
-	"repositories": [
-		{
-			"type": "git",
-			"url": "git://github.com/SDA/passgen.git"
-		}
-	],
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/SDA/passgen.git"
+	},
 	"main": "lib/passgen",
 	"directories": {
 		"lib": "./lib"
