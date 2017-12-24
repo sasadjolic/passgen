@@ -1,6 +1,6 @@
 {
 	"name": "passgen",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Password generator",
 	"keywords": ["password", "generator", "pass", "random"],
 	"author": "Sasa Djolic <sasa.djolic@gmail.com> (https://www.linkedin.com/in/sasadjolic/)",
