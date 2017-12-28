@@ -2,6 +2,10 @@
 
 Password generator
 
+As of v1.1.0, passgen will generate cryptographically secure tokens that can be used as automatically-generated passwords or as session tokens. You can probably find other uses, too.
+
+Relies on the Node.js built-in crypto library to generate cryptographically secure tokens. If you are wanting to use passgen in the browser, you can use the "randombytes" browserify stand-alone: https://github.com/crypto-browserify/randombytes
+
 ## Installation
 
 	$ npm install passgen
@@ -27,7 +31,9 @@ Choose a different alphabet from which to pick characters for the password:
 
 ## Running tests
 
-	vows test/test.js
+	npm run-script test
+
+passgen relies on Vows test framework.
 
 ## License
 
