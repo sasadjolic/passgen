@@ -1,26 +1,43 @@
 {
-	"name": "passgen",
-	"version": "1.0.3",
-	"description": "Password generator",
-	"keywords": ["password", "generator", "pass", "random"],
-	"author": "Sasa Djolic <sasa.djolic@gmail.com> (https://www.linkedin.com/in/sasadjolic/)",
-	"contributors": [
-		"Sasa Djolic <sasa.djolic@gmail.com> (https://www.linkedin.com/in/sasadjolic/)"
-	],
-	"bugs": {
-		"url": "http://github.com/sasadjolic/passgen/issues" 
-	},
-	"license": "MIT",
-	"repository": {
-		"type": "git",
-		"url": "git://github.com/sasadjolic/passgen.git"
-	},
-	"main": "lib/passgen",
-	"directories": {
-		"lib": "./lib"
-	},
-	"devDependencies": {
-		"vows": ">= 0.5.13"
-	},
-	"engines": ["node >= 0.4"]
+  "name": "passgen",
+  "version": "1.1.0",
+  "description": "Password generator (CSPRNG)",
+  "keywords": [
+    "password",
+    "generator",
+    "pass",
+    "random",
+    "token",
+    "CSPRNG",
+    "cryptographically",
+    "secure",
+    "token",
+    "session"
+  ],
+  "author": "Sasa Djolic <sasa.djolic@gmail.com> (https://www.linkedin.com/in/sasadjolic/)",
+  "contributors": [
+    "Sasa Djolic <sasa.djolic@gmail.com> (https://www.linkedin.com/in/sasadjolic/)"
+  ],
+  "bugs": {
+    "url": "http://github.com/sasadjolic/passgen/issues"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sasadjolic/passgen.git"
+  },
+  "main": "lib/passgen",
+  "directories": {
+    "lib": "./lib"
+  },
+  "devDependencies": {
+    "vows": ">= 0.5.13"
+  },
+  "dependencies": {},
+  "engines": [
+    "node >= 0.4"
+  ],
+  "scripts": {
+    "test": "node test/test.js"
+  }
 }
